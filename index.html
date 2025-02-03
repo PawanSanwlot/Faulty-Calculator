@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dark Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome To My Special Calculator</h1>
+  </header>
+  
+  <div class="calculator">
+    <!-- Display Screen -->
+    <div class="display" id="result">0</div>
+    
+    <!-- Buttons Grid -->
+    <div class="buttons">
+      <!-- Row 1: AC button spans 3 columns, operator occupies the 4th -->
+      <button class="special">AC</button>
+      <button class="operator" data-operator="/">/</button>
+
+      <!-- Row 2 -->
+      <button data-digit="7">7</button>
+      <button data-digit="8">8</button>
+      <button data-digit="9">9</button>
+      <button class="operator" data-operator="*">×</button>
+
+      <!-- Row 3 -->
+      <button data-digit="4">4</button>
+      <button data-digit="5">5</button>
+      <button data-digit="6">6</button>
+      <button class="operator" data-operator="-">-</button>
+
+      <!-- Row 4 -->
+      <button data-digit="1">1</button>
+      <button data-digit="2">2</button>
+      <button data-digit="3">3</button>
+      <button class="operator" data-operator="+">+</button>
+
+      <!-- Row 5 -->
+      <button data-digit="0">0</button>
+      <button data-digit=".">.</button>
+      <button class="equals">=</button>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 My Special Calculator. All rights reserved.</p>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
