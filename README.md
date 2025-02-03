@@ -1,6 +1,6 @@
-# Dark Calculator
+# Special Calculator
 
-**Dark Calculator** is a special web-based calculator with a sleek, dark-themed user interface and smooth animations. Built using HTML, CSS, and JavaScript, this calculator features unique arithmetic logic: for each operator, there is a 10% chance that a different operation will be performed. Enjoy a modern twist on standard calculator functionality!
+**Special Calculator** is a web-based calculator with a sleek, dark-themed user interface and smooth animations. Built using HTML, CSS, and JavaScript, this calculator features unique arithmetic logic: for each operator, there is a 10% chance that a different operation will be performed. Enjoy a modern twist on standard calculator functionality!
 
 ## Features
 
